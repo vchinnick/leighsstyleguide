@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.header {
+    text-align: center;
+    background-color: #fff;
+    color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 26px;
+    font-weight: 1000;
+    text-transform: capitalize;
+}
+
+.header a {
+    color: black;
+    text-decoration:none;
+    background-color: palevioletred;
+}
+
+.header a:hover {
+    background-color: cadetblue;
+    color: gainsboro;
+}
+
+.header a:active {
+    
+}
+
+.header li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.color-section {
+    width: 100%;
+}
+
+.color-swatch {
+    display: inline-block;
+    text-align:center;
+    margin: 20px auto;
+    font-size: larger;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    height: 275px;
+}
+
+.color-name {
+    text-decoration: underline;
+}
+
+.palevioletred {
+    background-color: palevioletred;
+    color: #fff;
+}
+
+.gainsboro {
+    background-color: gainsboro;
+    color:  black;
+}
+
+.cadetblue {
+    background-color: cadetblue;
+    color:  #fff;
+}
+
+.fonts-section {
+    width: 100%;
+}
+
+.font-swatch {
+    display: inline-block;
+    text-align:center;
+    margin: 20px auto;
+    font-size: larger;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    height: 275px;
+}
+
+.font-name {
+    text-decoration: underline;
+}
+
+.arial {
+    background-color: palevioletred;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    text-align:center;
+    margin: 20px auto;
+    font-size: larger;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    height: 275px;
+}
+
+.garamond {
+    background-color: gainsboro;
+    color:  black;
+    font-family: Garamond;
+}
+
+.courier-new {
+    background-color: cadetblue;
+    color:  #fff;
+    font-family:'Courier New', Courier, monospace
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.styles-section {
+    width: 100%;
+}
+
+.style-swatch {
+    display: inline-block;
+    text-align:center;
+    margin: 20px auto;
+    font-size: larger;
+    border-radius: 25px;
+    padding: 20px;
+    width: 300px;
+    height: 275px;
+    vertical-align: top;
+}
+
+.style-name-h1 {
+    text-decoration: underline;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.style-name-h2 {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.style-name-p {
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.h1 {
+    background-color: palevioletred;
+    color: #fff;
+}
+
+.h2 {
+    background-color: gainsboro;
+    color:  black;
+}
+
+.p {
+    background-color: cadetblue;
+    color:  #fff;
+}
